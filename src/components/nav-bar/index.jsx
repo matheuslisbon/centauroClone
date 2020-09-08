@@ -10,7 +10,7 @@ export default function NavBar (){
     <>
     <section className='header'>
       <ul>
-      <li>Seja bem vindo</li>
+      <li>Seja bem vindo!</li>
       <li>Covid-19</li>
       <li>Atendimento</li>
       </ul>
