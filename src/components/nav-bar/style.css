@@ -1,0 +1,72 @@
+.header{
+  display: flex;
+  color: white;
+  background: rgb(124, 5, 31);
+}
+.header ul {
+  display: flex;
+}
+.header ul li {
+  padding: 5px 50px;
+}
+
+.nav-bar{
+  background: rgb(190, 15, 52);
+  display: flex;
+  text-align: center;
+}
+
+.nav-itens{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  padding: 10px;
+}
+.nav-itens a img{
+  width: 100%;
+}
+
+.nav-itens input{
+  height: 35px;
+  border: none;
+  width: 450px;
+  align-items: center;
+  margin-left: 105px;
+  border-radius: 4px;
+}
+.inp-log{
+  color: white;
+  margin-left: 105px;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.inp-log p .inp-link {
+  color :white;
+  padding: 10px;
+  transition: 0.3s;
+}
+.inp-log p .inp-link:hover{
+  background: white;
+  color: rgb(190, 15, 52);
+  border-radius: 4px;
+}
+.prods{
+  display: flex;
+  color: rgb(135, 135, 135);
+
+  background: rgb(255, 255, 255);
+  border-bottom: 0.5px solid rgb(135, 135, 135);
+}
+.prods ul {
+  display: flex;
+}
+
+.prods ul li {
+  padding: 15px 10px;
+  font-weight: bold;
+  font-size: 80%;
+}

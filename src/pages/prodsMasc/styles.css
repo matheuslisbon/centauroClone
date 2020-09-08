@@ -1,0 +1,31 @@
+section .img-frete{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.prods-list{
+  display: grid;
+  padding: 25px;
+  grid-template-columns:20% 20% 20% 20% 20%;
+  padding: 10px;
+  
+}
+.prods-list .prod-find{
+  padding: 10px;
+  cursor: pointer;
+
+}
+.prods-list .prod-find:hover{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px, rgba(0, 0, 0, 0.4) 0px 1px 1px 0px;
+  border-radius: 8px;
+  font-size: 1.5rem;
+}
+
+.prods-list .prod-find p{
+  color: #6c6c6c;
+}
+
+.prods-list .prod-find p.prod-value{
+  font-weight: bold;
+  color: black;
+}

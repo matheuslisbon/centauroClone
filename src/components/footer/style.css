@@ -1,0 +1,13 @@
+
+.bk-footer{
+  background: rgb(190, 15, 52);
+  margin-top: 20px;
+}
+.img-footer{
+  width: 30%;
+  background: rgb(190, 15, 52);
+  display: flex;
+  margin: 0 auto;
+  padding: 30px;
+
+}

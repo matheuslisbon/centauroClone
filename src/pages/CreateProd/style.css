@@ -1,0 +1,9 @@
+.form-register select{
+  color: black;
+  width: 170px;
+  height: 30px;
+  border: 1px solid rgb(131, 131, 131);
+  font-weight: bold;
+  margin-bottom: 15px;
+
+}
